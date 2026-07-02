@@ -1,0 +1,33 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 90px;
+
+    background:#3f87a7;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-family:'Pacifico', cursive;
+
+}
+
+.nav-links{
+    display:flex;
+    gap:35px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#ffd54a;
+}

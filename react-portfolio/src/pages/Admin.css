@@ -1,0 +1,132 @@
+.admin{
+    min-height:100vh;
+    background:#3f87a7;
+    padding:60px;
+    color:white;
+}
+
+.admin h1{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:40px;
+}
+
+.message-card{
+    background:white;
+    color:#333;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.message-card h3{
+    margin-bottom:10px;
+}
+
+.message-card p{
+    margin:8px 0;
+}
+
+.message-card button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:#d9534f;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.message-card button:hover{
+    background:#c9302c;
+}
+
+
+/* ======= */
+hr{
+    margin:40px 0;
+}
+
+.service-form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.service-form input,
+.service-form textarea{
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.service-form button{
+    width:180px;
+    padding:12px;
+    background:green;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.service-form button:hover{
+    background:darkgreen;
+}
+
+.service-card{
+    background:white;
+    color:#333;
+    padding:20px;
+    border-radius:8px;
+    margin-top:20px;
+}
+
+.service-card h3{
+    margin-bottom:10px;
+}
+
+.service-card p{
+    margin-bottom:15px;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:darkred;
+}
+
+.edit-btn{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+.edit-btn:hover{
+    background:#0b5ed7;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.delete-btn:hover{
+    background:darkred;
+}
